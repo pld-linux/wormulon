@@ -5,9 +5,9 @@ Version:	0.1.4
 Release:	0.1
 License:	GPL
 Group:		Networking/Utilities
-Source0:	http://www.raisdorf.net/files/wormulon/%{name}-%{version}.tar.gz
+Source0:	http://www.wormulon.net/files/code/wormulon/%{name}-%{version}.tar.gz
 # Source0-md5:	2ec78110fae31ee7f3cc651334da6b0e
-URL:		http://www.raisdorf.net/wormulon/
+URL:		http://www.wormulon.net/projects/wormulon/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -36,5 +36,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README TODO
+%doc ChangeLog README TODO
 %attr(755,root,root) %{_bindir}/*
