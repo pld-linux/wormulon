@@ -1,5 +1,5 @@
 Summary:	Utility to showing the current incoming/outgoing traffic
-Summary(pl):	Narzêdzie pokazuj±ce aktualny ruch
+Summary(pl.UTF-8):   NarzÄ™dzie pokazujÄ…ce aktualny ruch
 Name:		wormulon
 Version:	0.1.4
 Release:	0.1
@@ -14,9 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Wormulon is a program showing the current incoming/outgoing traffic in
 one line suitable for inclusion in the screen hardstatus line.
 
-%description -l pl
-Wormulon jest programem pokazuj±cym aktualny ruch przychodz±cy i
-wychodz±cy.
+%description -l pl.UTF-8
+Wormulon jest programem pokazujÄ…cym aktualny ruch przychodzÄ…cy i
+wychodzÄ…cy.
 
 %prep
 %setup -q
