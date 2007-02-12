@@ -1,5 +1,5 @@
 Summary:	Utility to showing the current incoming/outgoing traffic
-Summary(pl.UTF-8):   Narzędzie pokazujące aktualny ruch
+Summary(pl.UTF-8):	Narzędzie pokazujące aktualny ruch
 Name:		wormulon
 Version:	0.1.4
 Release:	0.1
